@@ -23,7 +23,7 @@ public class MathUtility {
             return 1; //nếu có thể kết thúc sớm, thì kết thúc ngay
         //sống sots đến chỗ này, sure n =2..20 vì nếu k chết dọc đường ở 2 cụm if ở trên rồi
         //k cần else nếu trước đó mà return 
-        long result = 1; //giải thừa khởi đầu là 1
+        long result = 10; //giải thừa khởi đầu là 1
         //nhân đôi 2 3 4 5 ...n vào biến này thì thành n!
         for(int i = 2; i <= n; i++){
             result *= i;
